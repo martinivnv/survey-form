@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+  <header class="header">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to fill out this survey</p>
+  </header>
+  <br>
+  <form id="survey-form">
+    <label for="name" id="name-label">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required="true">
+    <br><br>
+    <label for="email" id="email-label">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required="true">
+    <br><br>
+    <label for="age" id="number-label">Age:</label>
+    <input type="number" id="number" name="age" placeholder="Age" min="3" max="120">
+    <br><br>
+    <label for="pokemon">Which starter Pokemon would you choose?</label>
+    <br>
+    <select id="dropdown" name="pokemon">
+      <option disabled="" selected="" value="">Select a Pokemon</option>
+      <option value="charmander">Charmander</option>
+      <option value="bulbasaur">Bulbasaur</option>
+      <option value="squirtle">Squirtle</option>
+    </select>
+    <br> <br>
+    <label for="mood">How are you feeling today?</label> <br>
+    <input type="radio" id="motivated" name="mood" value="motivated">
+    <label for="motivated">Motivated</label> <br>
+    <input type="radio" id="okay" name="mood" value="okay">
+    <label for="okay">Okay</label> <br>
+    <input type="radio" id="distracted" name="mood" value="distracted">
+    <label for="distracted">Distracted</label> <br>
+    <input type="radio" id="depressed" name="mood" value="depressed">
+    <label for="depressed">Depressed</label>
+    <br> <br>
+    <label for="interests">What fields of study interest you?</label> <br>
+    <input type="checkbox" id="math" name="interests" value="math">
+    <label for="math">Mathematics</label> <br>
+    <input type="checkbox" id="biology" name="interests" value="biology">
+    <label for="biology">Biology</label> <br>
+    <input type="checkbox" id="physics" name="interests" value="physics">
+    <label for="physics">Physics</label> <br>
+    <input type="checkbox" id="chem" name="interests" value="chem">
+    <label for="chem">Chemistry</label> <br>
+    <input type="checkbox" id="lit" name="interests" value="lit">
+    <label for="lit">Literature</label> <br>
+    <input type="checkbox" id="philosophy" name="interests" value="philosophy">
+    <label for="philosophy">Philosophy</label> <br>
+    <input type="checkbox" id="business" name="interests" value="business">
+    <label for="business">Business</label> <br>
+    <input type="checkbox" id="psych" name="interests" value="psych">
+    <label for="psych">Psychology</label>
+    <br> <br>
+    <label for="about">Tell us a bit about yourself:</label> <br>
+    <textarea id="about" name="about" rows="4" cols="50"></textarea>
+    <br> <br>
+    <button id="submit" type="submit" form="survey-form" value="submit">Submit</button>
+  </form>
+</div>
+  
+
+
+</body></html>
