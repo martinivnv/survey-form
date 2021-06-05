@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
+#survey-form {
+  width: max-content;
+  background: rgba(255,255,255, 0.5);
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  color: #2A2A2A;
+  border-radius: 25px;
+}
+
+header {
+  width: max-content;
+  margin: auto;
+  text-align: center;
+  color: #2A2A2A;
+}
+
+select, input, button{
+  font-family: inherit;
+  font-size: inherit;
+}
+
+body {
+  background-image: linear-gradient(to top right, #FBAB7E, #F7CE68);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+}
